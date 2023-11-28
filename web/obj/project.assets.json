@@ -11161,11 +11161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aljaz\\Desktop\\FAKS\\2. letnik\\IS\\SvetKnjig_kopije\\Dela avtentikacija pa tui\\SvetKnjig\\web\\web.csproj",
+      "projectUniqueName": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
       "projectName": "web",
-      "projectPath": "C:\\Users\\aljaz\\Desktop\\FAKS\\2. letnik\\IS\\SvetKnjig_kopije\\Dela avtentikacija pa tui\\SvetKnjig\\web\\web.csproj",
+      "projectPath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
       "packagesPath": "C:\\Users\\aljaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aljaz\\Desktop\\FAKS\\2. letnik\\IS\\SvetKnjig_kopije\\Dela avtentikacija pa tui\\SvetKnjig\\web\\obj\\",
+      "outputPath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o2ASEm/Ujjaonzq+46QVAirTOgn7T5WKPA6kISxIuLSfr9aJsxvkSakwnML+h8In7ZhZ5b4CAVb9SnLlO1Gm6A==",
+  "dgSpecHash": "jB5Wd8Bltw70NQ135A22g48bs4yA3KeTCNuoGNtn2insAxj3faM0CSm+PiSTZn5lpyTVigPWEsTI+72mPeYg4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aljaz\\Desktop\\FAKS\\2. letnik\\IS\\SvetKnjig_kopije\\Dela avtentikacija pa tui\\SvetKnjig\\web\\web.csproj",
+  "projectFilePath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aljaz\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\aljaz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

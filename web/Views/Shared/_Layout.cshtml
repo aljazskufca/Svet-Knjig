@@ -20,16 +20,22 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Domača stran</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Avtor" asp-action="Create">Add avtor</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Avtor" asp-action="Create">Dodaj avtorja</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Knjiga" asp-action="Create">Add Knjiga</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Knjiga" asp-action="Create">Dodaj knjigo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Ocene_Komentarji" asp-action="Create">Add Ocena</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Ocene_Komentarji" asp-action="Create">Dodaj oceno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Avtor" asp-action="Index">Prikazi Avtorje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Knjiga" asp-action="Index">Prikazi knjige</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />

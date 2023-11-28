@@ -8,7 +8,7 @@ namespace web.Models
         public string Ime { get; set; }
         public string Priimek { get; set; }
         public DateTime Datum_rojstva { get; set; }
-        public ICollection<Knjiga_avtor> Knjige_avtorji { get; set; }
+        public ICollection<Knjiga_avtor>? Knjige_avtorji { get; set; }
 
     }
 }
