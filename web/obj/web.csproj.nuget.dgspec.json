@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj": {}
+    "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj": {
+    "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
+        "projectUniqueName": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
+        "projectPath": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj",
         "packagesPath": "C:\\Users\\aljaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\obj\\",
+        "outputPath": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

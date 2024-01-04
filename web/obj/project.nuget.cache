@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jB5Wd8Bltw70NQ135A22g48bs4yA3KeTCNuoGNtn2insAxj3faM0CSm+PiSTZn5lpyTVigPWEsTI+72mPeYg4g==",
+  "dgSpecHash": "KZQYIrwvYIOwZ/VG0eDtB7oCzpk/dAK+Z0sG2JbT9p2WO5xJwOYpmlatWTZ8eNIjKIB32uoS1aN+MW4mgBcFfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aljaz\\Desktop\\Skupi svet knjig\\web\\web.csproj",
+  "projectFilePath": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aljaz\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\aljaz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

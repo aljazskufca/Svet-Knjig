@@ -13,7 +13,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
     .AddEntityFrameworkStores<SvetKnjigContext>();
 
 builder.Services.AddDbContext<SvetKnjigContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("SvetKnjigContext")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("AzureContext")));
 
 var app = builder.Build();
 
