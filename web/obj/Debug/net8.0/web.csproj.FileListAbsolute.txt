@@ -1740,3 +1740,7 @@ C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\obj\Debug\net8.0\refint\we
 C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\obj\Debug\net8.0\web.pdb
 C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\obj\Debug\net8.0\web.genruntimeconfig.cache
 C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\obj\Debug\net8.0\ref\web.dll
+C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nacek\OneDrive\Desktop\IS\Dev\Svet-Knjig\web\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
