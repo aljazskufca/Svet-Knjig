@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj": {}
+    "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj": {
+    "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj",
+        "projectUniqueName": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\web.csproj",
-        "packagesPath": "C:\\Users\\aljaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aljaz\\Documents\\GitHub\\Svet-Knjig\\web\\obj\\",
+        "projectPath": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\web.csproj",
+        "packagesPath": "C:\\Users\\nacek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aljaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nacek\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

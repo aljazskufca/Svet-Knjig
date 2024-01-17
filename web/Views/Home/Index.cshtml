@@ -1,4 +1,6 @@
-﻿@{
+﻿@model web.Models.Knjiga_avtor
+
+@{
     ViewData["Title"] = "Svet knjig";
 }
 
@@ -16,6 +18,44 @@
   </section>
   
 <div class="album py-5 bg-body-tertiary">
+
+<h1>Avtorji</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Priimek</th>
+            <th>Datum rojstva</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var avtor in Model.Avtorji)
+        {
+            <tr>
+                <td>@avtor.Ime</td>
+                <td>@avtor.Priimek</td>
+                <td>@avtor.Datum_rojstva</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h1>Knjige</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Naslov</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var knjiga in Model.Knjige)
+        {
+            <tr>
+                <td>@knjiga.Naslov</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
       <div class="container"> 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
