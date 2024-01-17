@@ -5,6 +5,42 @@
       "PackagePath": "staticwebassets\\web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\1984.jpg",
+      "PackagePath": "staticwebassets\\1984.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\Crime and Punishment.jpg",
+      "PackagePath": "staticwebassets\\Crime and Punishment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\Editorial Sudamericana.webp",
+      "PackagePath": "staticwebassets\\Editorial Sudamericana.webp"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\One Hundred Years of Solitude.jpg",
+      "PackagePath": "staticwebassets\\One Hundred Years of Solitude.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\Pride and Prejudice.jpg",
+      "PackagePath": "staticwebassets\\Pride and Prejudice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\The Catcher in the Rye.jpg",
+      "PackagePath": "staticwebassets\\The Catcher in the Rye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\The Great Gatsby.jpg",
+      "PackagePath": "staticwebassets\\The Great Gatsby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\The Hobbit.jpg",
+      "PackagePath": "staticwebassets\\The Hobbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\To_Kill_a_Mockingbird.jpg",
+      "PackagePath": "staticwebassets\\To_Kill_a_Mockingbird.jpg"
+    },
+    {
       "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +279,14 @@
     {
       "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\sonetni-venec.jpg",
+      "PackagePath": "staticwebassets\\sonetni-venec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nacek\\OneDrive\\Desktop\\IS\\Dev\\Svet-Knjig\\web\\wwwroot\\sonetni-venec.svg",
+      "PackagePath": "staticwebassets\\sonetni-venec.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.web.props",

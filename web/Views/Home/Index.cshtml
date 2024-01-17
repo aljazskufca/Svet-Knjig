@@ -17,194 +17,34 @@
     </div>
   </section>
 
-<h1>Avtorji</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Ime</th>
-            <th>Priimek</th>
-            <th>Datum rojstva</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var avtor in Model.Avtorji)
-        {
-            <tr>
-                <td>@avtor.Ime</td>
-                <td>@avtor.Priimek</td>
-                <td>@avtor.Datum_rojstva</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<h1>Knjige</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Naslov</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var knjiga in Model.Knjige)
-        {
-            <tr>
-                <td>@knjiga.Naslov</td>
-            </tr>
-        }
-    </tbody>
-</table>
-<div class="album py-5 bg-body-tertiary">
       <div class="container"> 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          @foreach (var knjiga in Model.Knjige)
+            {
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Custom Image</title>
+                    <image href="@($"~/../wwwroot/{knjiga.Naslov}.jpg")" width="100%" height="100%" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">@knjiga.Naslov</p>
+                  @foreach (var avtor in Model.Avtorji)
+                    {
+                      <p class="card-text">@avtor.Ime @avtor.Priimek</p>
+                    }
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
 
+                    </div>
+                    <small class="text-body-secondary">Cena: </small>
+                  </div>
                 </div>
-                <small class="text-body-secondary">Cena: </small>
               </div>
             </div>
-          </div>
-        </div>
-    
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-            <div class="card-body">
-              <p class="card-text">IME KNJIGE</p>
-              <p class="card-text">AVTOR KNJIGE</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                </div>
-                <small class="text-body-secondary">Cena: </small>
-              </div>
-            </div>
-          </div>
-        </div>
+          }
       </div>
     </div>
   </div>
+
