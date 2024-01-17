@@ -1,4 +1,4 @@
-﻿@model web.Models.Knjiga_avtor
+@model web.Models.Knjiga_avtor
 
 @{
     ViewData["Title"] = "Svet knjig";
@@ -16,23 +16,39 @@
       </div>
     </div>
   </section>
-
+  
+<div class="books">
       <div class="container"> 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          @foreach (var knjiga in Model.Knjige)
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">  
+
+            @{
+               List<string> knjige = new List<string>();
+
+            foreach (var knjiga in Model.Knjige)
             {
+                knjige.Add($"{knjiga.Naslov}");
+            }
+            List<string> avtorji = new List<string>();
+
+            foreach (var avtor in Model.Avtorji)
+            {
+                avtorji.Add($"{avtor.Ime} {avtor.Priimek}");
+            }
+
+            }
+
+            @for(int i=0; i<knjige.Count;i++){
+
+            
             <div class="col">
               <div class="card shadow-sm">
                 <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Custom Image</title>
-                    <image href="@($"~/../wwwroot/{knjiga.Naslov}.jpg")" width="100%" height="100%" />
-                </svg>
+                    <image href="@($"~/../wwwroot/{knjige[i]}.jpg")" width="100%" height="100%" />
+                </svg> 
                 <div class="card-body">
-                  <p class="card-text">@knjiga.Naslov</p>
-                  @foreach (var avtor in Model.Avtorji)
-                    {
-                      <p class="card-text">@avtor.Ime @avtor.Priimek</p>
-                    }
+                    <p class="card-text">@knjige[i]</p>
+                    <p class="card-text">@avtorji[i]</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
