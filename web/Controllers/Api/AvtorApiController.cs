@@ -10,7 +10,7 @@ using web.Models;
 
 namespace web.Controllers_Api
 {
-    [Route("api/[controller]")]
+    [Route("api/AvtorAPI")]
     [ApiController]
     public class AvtorApiController : ControllerBase
     {
