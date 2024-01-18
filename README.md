@@ -24,6 +24,12 @@ Slike:
 
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/83e9a1fe-436e-40ba-9555-81edb4655275)
 
+Naloge:
+
+Nace Koprive: Spletna stran, Android, API
+Aljaž Škufca: 
+
+
 
 
 
