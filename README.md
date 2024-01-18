@@ -27,6 +27,7 @@ Slike:
 Naloge:
 
 Nace Koprive: Spletna stran, Android, API
+
 Aljaž Škufca: 
 
 
