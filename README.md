@@ -16,6 +16,7 @@ Slike:
 
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/dc125f89-2995-483f-b5b9-2d850da42721)
 
+![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/5ea0d836-f48f-405e-870d-da1d7726f60d)
 
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/fddb3b6c-a400-4394-b697-3203ed53a374)
 
