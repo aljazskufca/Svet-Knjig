@@ -28,7 +28,11 @@ Naloge:
 
 Nace Koprive: Spletna stran, Android, API
 
-Aljaž Škufca: 
+Aljaž Škufca: Podatkovno bazo, Avtentikacjo in avtorizacijo, Azure, & small fixes 
+
+
+![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/c6fcee21-35ca-4f20-aa4f-ff27fb8e4fe5)
+
 
 
 
