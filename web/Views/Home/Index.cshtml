@@ -44,8 +44,7 @@
               <div class="card shadow-sm">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: " preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Image</title>
-                    string imagePath = $"~/wwwroot/{knjige[i]}.jpg";
-                    <img src="@Url.Content(imagePath)" alt="@knjige[i]" width="100%" height="100%" />
+                    <img src="@Url.Content($"~/wwwroot/{knjige[i]}.jpg")" alt="@knjige[i]" width="100%" height="100%" />
                 </svg>
                 <div class="card-body">
                     <p class="card-text">@knjige[i]</p>
