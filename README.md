@@ -18,4 +18,9 @@ Slike:
 
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/7358adee-5f08-48ac-8219-d460cefcf5f6)
 
+![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/83e9a1fe-436e-40ba-9555-81edb4655275)
+
+
+
+
 
