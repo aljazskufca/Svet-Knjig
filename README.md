@@ -14,6 +14,9 @@ Predvidene entitete: Knjiga, Avtor, Uporabnik, Žanr, Naročila, Ocene in koment
 
 Slike:
 
+![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/dc125f89-2995-483f-b5b9-2d850da42721)
+
+
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/fddb3b6c-a400-4394-b697-3203ed53a374)
 
 ![image](https://github.com/aljazskufca/Svet-Knjig/assets/152170275/7358adee-5f08-48ac-8219-d460cefcf5f6)
